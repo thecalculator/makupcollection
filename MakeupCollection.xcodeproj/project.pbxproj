@@ -13,6 +13,8 @@
 		A7F50A8C1F33DD200030046F /* MakeupCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F50A8A1F33DD200030046F /* MakeupCollection.xcdatamodeld */; };
 		A7F50A8E1F33DD200030046F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F50A8D1F33DD200030046F /* Assets.xcassets */; };
 		A7F50A911F33DD200030046F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F50A8F1F33DD200030046F /* LaunchScreen.storyboard */; };
+		A7F50A991F33E0BD0030046F /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F50A981F33E0BD0030046F /* AddItemsViewController.swift */; };
+		A7F50A9B1F33EE830030046F /* soccer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F50A9A1F33EE830030046F /* soccer.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A7F50A8D1F33DD200030046F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F50A901F33DD200030046F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F50A921F33DD200030046F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F50A981F33E0BD0030046F /* AddItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
+		A7F50A9A1F33EE830030046F /* soccer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soccer.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		A7F50A821F33DD200030046F /* MakeupCollection */ = {
 			isa = PBXGroup;
 			children = (
+				A7F50A9A1F33EE830030046F /* soccer.jpg */,
 				A7F50A831F33DD200030046F /* AppDelegate.swift */,
 				A7F50A851F33DD200030046F /* ViewController.swift */,
 				A7F50A871F33DD200030046F /* Main.storyboard */,
+				A7F50A981F33E0BD0030046F /* AddItemsViewController.swift */,
 				A7F50A8D1F33DD200030046F /* Assets.xcassets */,
 				A7F50A8F1F33DD200030046F /* LaunchScreen.storyboard */,
 				A7F50A921F33DD200030046F /* Info.plist */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					A7F50A7F1F33DD200030046F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q48V538VT9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F50A9B1F33EE830030046F /* soccer.jpg in Resources */,
 				A7F50A911F33DD200030046F /* LaunchScreen.storyboard in Resources */,
 				A7F50A8E1F33DD200030046F /* Assets.xcassets in Resources */,
 				A7F50A891F33DD200030046F /* Main.storyboard in Resources */,
@@ -140,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F50A8C1F33DD200030046F /* MakeupCollection.xcdatamodeld in Sources */,
+				A7F50A991F33E0BD0030046F /* AddItemsViewController.swift in Sources */,
 				A7F50A861F33DD200030046F /* ViewController.swift in Sources */,
 				A7F50A841F33DD200030046F /* AppDelegate.swift in Sources */,
 			);
@@ -266,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q48V538VT9;
 				INFOPLIST_FILE = MakeupCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tridev.MakeupCollection;
@@ -278,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q48V538VT9;
 				INFOPLIST_FILE = MakeupCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tridev.MakeupCollection;
@@ -305,6 +316,7 @@
 				A7F50A971F33DD200030046F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
